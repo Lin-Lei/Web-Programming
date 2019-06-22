@@ -1,0 +1,234 @@
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    vertical-align: middle;
+    min-width: 220px;
+    max-width: 550px;
+    text-align: center;
+    background: #f5f5f5;
+    color: #4d4d4d;
+
+}
+
+h1{
+    color: rgba(175, 45, 45, 0.7);
+    font-size: 40px;
+    text-shadow: 3px 3px rgba(240, 60, 60, 0.2);
+}
+
+.listBook {
+
+    background-color: #ffffff;
+    padding: 10px 16px 10px 16px;
+    border-radius: 10px;
+    margin: 10px 10px 20px 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3),
+    1px 8px 0 -3px #f6f6f6,
+    1px 9px 1px -3px rgba(0, 0, 0, 0.2),
+    1px 16px 0 -6px #f6f6f6,
+    1px 17px 2px -6px rgba(0, 0, 0, 0.2);
+}
+
+.new-item {
+    line-height: 30px;
+    width: 50%;
+}
+
+.filter{
+    margin-top: 30px;
+}
+
+.filter li{
+    display: inline;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.selected{
+    padding: 6px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.input{
+    padding: 0;
+    width: 100%;
+    margin: auto auto 15px auto;
+    position: relative;
+    vertical-align: middle;
+}
+
+.list{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.list li{
+    list-style-type: none;
+
+    text-align: left;
+    padding: 10px;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    border: rgba(232, 175, 175, 0.6) 1px solid;
+    border-radius: 20px;
+
+    box-shadow: 5px 5px 10px rgba(255, 193, 193, 0.3);
+
+}
+
+.delete, .open-button {
+    position: absolute;
+    right: 10px;
+}
+
+.goDown {
+    position: absolute;
+    right: 45px;
+}
+
+.goUp {
+    position: absolute;
+    right: 80px;
+}
+
+.emphasize-button {
+    position: absolute;
+    right: 115px;
+}
+
+.close-button {
+    position: absolute;
+    right: 150px;
+    padding: 1px 0px 1px 8px;
+}
+
+.open-button {
+    padding: 1px 8px 1px 0px;
+}
+
+.normal {
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #dddddd;
+    border: #dddddd 1px solid;
+    background-color: #f0f0f0;
+}
+
+
+.bottomButton{
+    width: 25%;
+    height: 50px;
+    margin: 0 10px;
+    padding: 0;
+
+    border-radius: 10px;
+    background-color: rgba(255, 193, 193, 0.3);
+    border-width: 2px;
+
+}
+
+a {
+    cursor: pointer;
+}
+
+.emphasized {
+    background-color: rgba(255, 193, 193, 0.6);
+
+}
+
+p{
+    margin: 6px;
+}
+
+button>div {
+    height: 40px;
+
+    line-height: 20px;
+
+}
+
+button>div>span{
+}
+
+.set-status, .toggle, .goUp, .goDown, .emphasize-button, .delete, .close-button, .open-button{
+    height: 30px;
+    width: 30px;
+    vertical-align: bottom;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.add-button{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.add-button, .emphasize-button, .goDown, .goUp, .delete, .close-button, .open-button{
+    border-radius: 10px;
+    border-width: 1px;
+
+}
+
+.emphasize-button, .goDown, .goUp, .delete {
+    background-color: #ffffff;
+}
+
+.emphasize-button, .delete{
+    color: red;
+
+
+}
+
+.view label{
+    vertical-align: top;
+    font-size: 25px;
+
+    width: 100px;
+}
+
+li.editing .view {
+    display: none;
+}
+
+button.close {
+    display: none;
+}
+
+.editElement {
+    left: 10%;
+    width: 80%;
+    height: 30px;
+    font-size: 25px;
+}
+
+.time {
+    position: relative;
+    top: -20px;
+    font-weight: bold;
+}
+
+.fix {
+    max-height: 330px;
+    overflow: scroll;
+}
+

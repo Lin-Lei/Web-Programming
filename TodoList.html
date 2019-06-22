@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoList</title>
+    <meta content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width" name="viewport"/>
+    <link rel="stylesheet" href="TodoList.css">
+
+</head>
+<body>
+    <div class="todo">
+        <h1>TodoList</h1>
+        <p class="time"></p>
+
+        <div class="input">
+            <input class="set-status" type="checkbox" >
+            <input class="new-item" type="text" placeholder="enter new item" autofocus>
+            <button class="add-button">+</button>
+        </div>
+
+        <div class="main">
+
+            <div class="listBook">
+                <ul class="list"></ul>
+
+                <ul class="filter">
+                    <li><a>All</a></li>
+                    <li><a>Active</a></li>
+                    <li><a>Completed</a></li>
+                </ul>
+
+
+                <p class="emphasizedCount"></p>
+                <p class="activeCount"></p>
+                <p class="completeCount"></p>
+            </div>
+
+
+            <button class="complete-all bottomButton"><div><span>Complete All</span></div></button>
+            <button class="reset-all bottomButton"><div><span>Reset All</span></div></button>
+            <button class="clear-all bottomButton"><div><span>Clear All</span></div></button>
+
+            <p></p>
+            <button class="separate-active bottomButton"><div><span>Separate Active</span></div></button>
+            <button class="urgent-up bottomButton"><div><span>Urgent Up</span></div></button>
+            <button class="clear-completed bottomButton"><div><span>Clear Completed</span></div></button>
+
+            <p></p>
+
+            <button class="fix-mode bottomButton"><div><span>Fix Height</span></div></button>
+            <button class="scroll-mode bottomButton"><div><span>Extensible</span></div></button>
+            <button class="music bottomButton"><div><span>Play music</span></div></button>
+
+            <audio class="audio" loop="loop">
+                <source src="http://www.170hi.com/kw/other.web.rl01.sycdn.kuwo.cn/resource/n3/67/54/3939488671.mp3">
+            </audio>
+
+        </div>
+    </div>
+
+    <script src="TodoList.js"></script>
+    <script src="localstorage.js"></script>
+
+</body>
+</html>
